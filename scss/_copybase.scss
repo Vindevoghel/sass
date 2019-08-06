@@ -77,18 +77,18 @@ h6 {
 }
 
 .success {
-  @extend: .message;
-  background-color: green
+  @extend .message;
+  background-color: green;
 }
 
 .error {
-  @extend: .message;
-  background-color: red
+  @extend .message;
+  background-color: red;
 }
 
 .warning {
-  @extend: .message;
-  background-color: orange
+  @extend .message;
+  background-color: orange;
 }
 
 footer {
